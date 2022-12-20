@@ -3,8 +3,11 @@ package com.techprimers.testing;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
+import io.cucumber.junit.Cucumber;
 
 import org.junit.Assert;
+
+@RunWith(Cucumber.class)
 public class FizzBuzzStepdefs {
 
     FizzBuzz fizzBuzz;
