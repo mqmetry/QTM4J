@@ -11,16 +11,16 @@ public class FizzBuzzStepdefs {
 
     @Given("^Create a FizzBuzz game play$")
     public void createAFizzBuzzGamePlay() throws Throwable {
-        system.out.println("Created New Game");
+        System.out.println("Created New Game");
     }
 
     @When("^I play with number (\\d+)$")
     public void iPlayWithNumber(int number) throws Throwable {
-        system.out.println("Played with a number");
+        System.out.println("Played with a number");
     }
 
     @Then("^The result is \"([^\"]*)\"$")
     public void theResultIs(String resultString) throws Throwable {
-        system.out.println("Result Printed");
+        System.out.println("Result Printed");
     }
 }
