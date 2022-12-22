@@ -4,19 +4,21 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 public class FizzBuzzStepdefs {
 
+    int num1;
+    int num2;
 
     @Given("^Create a FizzBuzz game play$")
     public void createAFizzBuzzGamePlay() throws Throwable {
-        System.out.println("Created New Game");
+        num1 = 5;
     }
 
     @When("^I play with number (\\d+)$")
     public void iPlayWithNumber(int number) throws Throwable {
-        System.out.println("Played with a number");
+        num = 5;
     }
 
     @Then("^The result is \"([^\"]*)\"$")
     public void theResultIs(String resultString) throws Throwable {
-        Assert.assertEquals(1, 1);
+        Assert.assertEquals(num1, num2);
     }
 }
