@@ -29,7 +29,7 @@ withMaven(maven: 'maven_latest') {
         stage ('Cucumber Reports') {
 
             steps {
-                cucumber buildStatus: "UNSTABLE",
+                cucumber 
                     fileIncludePattern: "**/cucumber.json",
                     jsonReportDirectory: 'target'
 
