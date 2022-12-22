@@ -14,7 +14,7 @@ public class FizzBuzzStepdefs {
 
     @When("^I play with number (\\d+)$")
     public void iPlayWithNumber(int number) throws Throwable {
-        num = 5;
+        num2 = 5;
     }
 
     @Then("^The result is \"([^\"]*)\"$")
