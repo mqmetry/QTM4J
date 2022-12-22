@@ -17,6 +17,6 @@ public class FizzBuzzStepdefs {
 
     @Then("^The result is \"([^\"]*)\"$")
     public void theResultIs(String resultString) throws Throwable {
-        System.out.println("Result Printed");
+        Assert.assertEquals(1, 1);
     }
 }
