@@ -5,7 +5,7 @@ import org.junit.Assert;
 public class FizzBuzzStepdefs {
 
     int num1;
-  
+      int num2;
 
     @Given("^Create a FizzBuzz game play$")
     public void createAFizzBuzzGamePlay() throws Throwable {
