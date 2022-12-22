@@ -4,8 +4,6 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 public class FizzBuzzStepdefs {
 
-    FizzBuzz fizzBuzz;
-    String result;
 
     @Given("^Create a FizzBuzz game play$")
     public void createAFizzBuzzGamePlay() throws Throwable {
