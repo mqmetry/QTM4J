@@ -10,7 +10,7 @@ public class FizzBuzzStepdefs {
     @Given("^Create a FizzBuzz game play$")
     public void createAFizzBuzzGamePlay() throws Throwable {
         num1 = 3;
-        return 1;
+
     }
 
     @When("^I play with number (\\d+)$")
@@ -20,6 +20,6 @@ public class FizzBuzzStepdefs {
 
     @Then("^The result is \"([^\"]*)\"$")
     public void theResultIs(String resultString) throws Throwable {
-        Assert.assertEquals(resultString, "Fizz");
+        num1 = num2;
     }
 }
