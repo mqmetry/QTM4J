@@ -9,8 +9,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources",
         glue = "com.techprimers.testing",
         publish = true,
-    	monochrome = true,
-         format = {"json:target/cucumber.json"}
+        
+
 
 )
 public class CucumberTest {
