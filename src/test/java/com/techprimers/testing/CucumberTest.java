@@ -7,6 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources",
-        glue = "src/test/java/FizzBuzzStepdefs")
+        glue = "com.techprimers.testing",
+    	plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json" },
+    	monochrome = true)
 public class CucumberTest {
 }
