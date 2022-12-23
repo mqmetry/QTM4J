@@ -50,11 +50,11 @@
                     </goals>
                     <configuration>
                         <projectName>Cucumber HTML Reports</projectName>
-                        <outputDirectory>${project.build.directory}</outputDirectory>
-                        <inputDirectory>${project.build.directory}</inputDirectory>
-                        <jsonFiles>
-                            <param>**/cucumber*.json</param>
-                        </jsonFiles>
+                        <outputDirectory>${project.build.directory}/cucumber-reports</outputDirectory>
+                        <inputDirectory>${project.build.directory}/cucumber</inputDirectory>
+<jsonFiles>
+  <param>**/*.json</param>
+</jsonFiles>
                     </configuration>
                 </execution>
             </executions>
