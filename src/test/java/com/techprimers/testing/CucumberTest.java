@@ -9,7 +9,6 @@ import org.junit.runner.RunWith;
         features = "src/test/resources",
         glue = "com.techprimers.testing",
         publish = true,
-    	plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json" },
     	monochrome = true
 
 )
