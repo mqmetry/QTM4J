@@ -10,6 +10,7 @@ public class FizzBuzzStepdefs {
     @Given("^Create a FizzBuzz game play$")
     public void createAFizzBuzzGamePlay() throws Throwable {
         num1 = 3;
+        return 1;
     }
 
     @When("^I play with number (\\d+)$")
