@@ -8,6 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources",
         glue = "com.techprimers.testing",
+        plugin = {"json:target/cucumber/cucumber.json"},
         publish = true
         
 
