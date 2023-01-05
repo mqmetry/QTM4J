@@ -22,7 +22,7 @@ public class FizzBuzzTest {
 
     @Test
     public void testFizz() {
-        String fizzBuzz = fB.play("hello");
+        String fizzBuzz = fB.play(0);
         Assert.assertEquals(fizzBuzz, "Fizz");
     }
 
