@@ -31,6 +31,12 @@ public class FizzBuzzTest {
         String fizzBuzz = fB.play(5);
         Assert.assertEquals(fizzBuzz, "Buzz");
     }
+    
+        @Test
+    public void testBuzz() {
+        String fizzBuzz = fB.play(15);
+        Assert.assertEquals(fizzBuzz, "FizzBuzz");
+    }
 
     @After
     public void tearDown() {
