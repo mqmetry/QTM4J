@@ -33,7 +33,7 @@ public class FizzBuzzTest {
     }
     
         @Test
-    public void testBuzz() {
+    public void testFizzBuzz() {
         String fizzBuzz = fB.play(15);
         Assert.assertEquals(fizzBuzz, "FizzBuzz");
     }
