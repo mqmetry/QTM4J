@@ -8,7 +8,7 @@ pipeline{
 
             steps {
 withMaven(maven: 'maven_latest') {
-                    sh 'mvn clean install'
+                    shell 'mvn clean install'
 
 }
 
@@ -18,7 +18,7 @@ withMaven(maven: 'maven_latest') {
 
             steps {
 withMaven(maven: 'maven_latest') {
-                    sh 'mvn test'
+                    shell 'mvn test'
 }
 
 
