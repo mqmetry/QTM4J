@@ -7,18 +7,19 @@ pipeline{
         stage ('Compile Stage') {
 
             steps {
-
+withMaven(maven: 'MavenWeb') {
                     sh 'mvn clean install'
 
+}
 
             }
         }
     stage ('Test Stage') {
 
             steps {
-
+withMaven(maven: 'MavenWeb') {
                     sh 'mvn test'
-
+}
 
 
             }
