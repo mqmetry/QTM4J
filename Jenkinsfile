@@ -3,8 +3,8 @@ pipeline{
     agent any
       
     tools { 
-      maven 'Maven 3.8.8' 
-      jdk 'jdk8' 
+      maven 'MavenWeb' 
+      jdk 'Javahome' 
     }
 
     stages {
