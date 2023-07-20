@@ -16,12 +16,6 @@ public class FizzBuzzTest {
 
     @Test
     public void testNumber() {
-        String fizzBuzz = fB.play(1);
-        Assert.assertEquals(fizzBuzz, "1");
-    }
-
-    @Test
-    public void testNumber() {
         String fizzBuzz = fB.play(99);
         Assert.assertEquals(fizzBuzz, "99");
     }
