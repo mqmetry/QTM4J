@@ -10,15 +10,10 @@ Given Create a FizzBuzz game play
 When I play with number 5
 Then The result is "Buzz"
 
-Scenario: Play FizzBuzz to get FizzBuzz
-Given Create a FizzBuzz game play
-When I play with number 15
-Then The result is "FizzBuzz"
 
 Scenario Outline: Play FizzBuzz to get FizzBuzz
   Given Create a FizzBuzz game play
   When When I play with number <NumbertobeTested>
-
   Then Then The result is "FizzBuzz"
 
   Examples:
